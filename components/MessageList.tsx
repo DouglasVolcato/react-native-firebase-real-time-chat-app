@@ -2,7 +2,6 @@ import React from "react";
 import { ScrollView, View, Text, StyleSheet, Image } from "react-native";
 
 const MessageList = ({ messages, authEmail }: any) => {
-  //   console.log(messages[0]);
   return (
     <ScrollView contentContainerStyle={styles.container}>
       {messages.map(

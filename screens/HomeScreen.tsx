@@ -32,7 +32,6 @@ const HomeScreen = ({ navigation }: any) => {
         );
       }
     );
-    console.log(chats);
     return unsubscribe;
   }, []);
 

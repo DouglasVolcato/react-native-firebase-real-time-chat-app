@@ -84,7 +84,6 @@ const ChatScreen = ({ navigation, route }: any) => {
           const messages = chatData.messages.sort(
             (a: any, b: any) => a.timestamp - b.timestamp
           );
-          console.log(messages);
           setMessages(messages);
         }
       }
